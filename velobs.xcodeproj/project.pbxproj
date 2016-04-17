@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0EB0591BD7EBD10023CCCA /* GeoLocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0581BD7EBD10023CCCA /* GeoLocViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB05C1BD7EC030023CCCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB05B1BD7EC030023CCCA /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB05F1BD7EC290023CCCA /* ListProxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB05E1BD7EC290023CCCA /* ListProxViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB0621BD7EC4F0023CCCA /* ReviewProxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0611BD7EC4F0023CCCA /* ReviewProxViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB0651BD7EC800023CCCA /* UpdateProxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0641BD7EC800023CCCA /* UpdateProxViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB0681BD7ECA50023CCCA /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0671BD7ECA50023CCCA /* CategoryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB06B1BD7ECF60023CCCA /* LocationPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB06A1BD7ECF60023CCCA /* LocationPropertiesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB06E1BD7ED3C0023CCCA /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB06D1BD7ED3C0023CCCA /* DescriptionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB0711BD7EDE20023CCCA /* PropositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0701BD7EDE20023CCCA /* PropositionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0EB0741BD7EE0E0023CCCA /* PictAndSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EB0731BD7EE0E0023CCCA /* PictAndSendViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB12CA031BE946400038CA6E /* VelObsSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12CA021BE946400038CA6E /* VelObsSingleton.m */; settings = {ASSET_TAGS = (); }; };
+		EB2198A61C1986BB00F8C49E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2198A51C1986BB00F8C49E /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
+		EB280E8E1BCE9D16001205AB /* bandeau@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB280E8B1BCE9D16001205AB /* bandeau@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EB280E8F1BCE9D16001205AB /* bandeauHD4.7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB280E8C1BCE9D16001205AB /* bandeauHD4.7@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EB280E901BCE9D16001205AB /* bandeauHD5.5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB280E8D1BCE9D16001205AB /* bandeauHD5.5@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EB280E921BCFA2D0001205AB /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB280E911BCFA2D0001205AB /* MailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB3D1C631BECC36500D3A34E /* InternetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3D1C621BECC36500D3A34E /* InternetImage.m */; settings = {ASSET_TAGS = (); }; };
+		EB8DB4121BC6E23C00CD2F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB4111BC6E23C00CD2F28 /* main.m */; };
+		EB8DB4151BC6E23C00CD2F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB4141BC6E23C00CD2F28 /* AppDelegate.m */; };
+		EB8DB4181BC6E23C00CD2F28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB4171BC6E23C00CD2F28 /* ViewController.m */; };
+		EB8DB41D1BC6E23C00CD2F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8DB41C1BC6E23C00CD2F28 /* Assets.xcassets */; };
+		EB8DB42B1BC6E23D00CD2F28 /* velobsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB42A1BC6E23D00CD2F28 /* velobsTests.m */; };
+		EB8DB4361BC6E23D00CD2F28 /* velobsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB4351BC6E23D00CD2F28 /* velobsUITests.m */; };
+		EBB2CB711BEA812D008A0840 /* SousCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB2CB701BEA812C008A0840 /* SousCategory.m */; settings = {ASSET_TAGS = (); }; };
+		EBB2CB731BEB4C74008A0840 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB2CB721BEB4C74008A0840 /* CoreLocation.framework */; };
+		EBB3B2761BEBAF1900B0CE14 /* OldObs.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3B2751BEBAF1900B0CE14 /* OldObs.m */; settings = {ASSET_TAGS = (); }; };
+		EBFF7CE01BF3CEA000B7047F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF7CDF1BF3CEA000B7047F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8DB4271BC6E23D00CD2F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DB4051BC6E23C00CD2F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DB40C1BC6E23C00CD2F28;
+			remoteInfo = velobs;
+		};
+		EB8DB4321BC6E23D00CD2F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DB4051BC6E23C00CD2F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DB40C1BC6E23C00CD2F28;
+			remoteInfo = velobs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0EB0571BD7EBB60023CCCA /* GeoLocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoLocViewController.h; sourceTree = "<group>"; };
+		EB0EB0581BD7EBD10023CCCA /* GeoLocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocViewController.m; sourceTree = "<group>"; };
+		EB0EB05A1BD7EBF40023CCCA /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EB0EB05B1BD7EC030023CCCA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EB0EB05D1BD7EC150023CCCA /* ListProxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListProxViewController.h; sourceTree = "<group>"; };
+		EB0EB05E1BD7EC290023CCCA /* ListProxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListProxViewController.m; sourceTree = "<group>"; };
+		EB0EB0601BD7EC3E0023CCCA /* ReviewProxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewProxViewController.h; sourceTree = "<group>"; };
+		EB0EB0611BD7EC4F0023CCCA /* ReviewProxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewProxViewController.m; sourceTree = "<group>"; };
+		EB0EB0631BD7EC6C0023CCCA /* UpdateProxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateProxViewController.h; sourceTree = "<group>"; };
+		EB0EB0641BD7EC800023CCCA /* UpdateProxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateProxViewController.m; sourceTree = "<group>"; };
+		EB0EB0661BD7EC950023CCCA /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EB0EB0671BD7ECA50023CCCA /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EB0EB0691BD7ECE50023CCCA /* LocationPropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationPropertiesViewController.h; sourceTree = "<group>"; };
+		EB0EB06A1BD7ECF60023CCCA /* LocationPropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPropertiesViewController.m; sourceTree = "<group>"; };
+		EB0EB06C1BD7ED0F0023CCCA /* DescriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		EB0EB06D1BD7ED3C0023CCCA /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		EB0EB06F1BD7ED700023CCCA /* PropositionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropositionViewController.h; sourceTree = "<group>"; };
+		EB0EB0701BD7EDE20023CCCA /* PropositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropositionViewController.m; sourceTree = "<group>"; };
+		EB0EB0721BD7EDFC0023CCCA /* PictAndSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictAndSendViewController.h; sourceTree = "<group>"; };
+		EB0EB0731BD7EE0E0023CCCA /* PictAndSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictAndSendViewController.m; sourceTree = "<group>"; };
+		EB12CA011BE9461A0038CA6E /* VelObsSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VelObsSingleton.h; sourceTree = "<group>"; };
+		EB12CA021BE946400038CA6E /* VelObsSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelObsSingleton.m; sourceTree = "<group>"; };
+		EB2198A41C19869400F8C49E /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EB2198A51C1986BB00F8C49E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EB280E8B1BCE9D16001205AB /* bandeau@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bandeau@2x.png"; sourceTree = "<group>"; };
+		EB280E8C1BCE9D16001205AB /* bandeauHD4.7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bandeauHD4.7@2x.png"; sourceTree = "<group>"; };
+		EB280E8D1BCE9D16001205AB /* bandeauHD5.5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bandeauHD5.5@3x.png"; sourceTree = "<group>"; };
+		EB280E911BCFA2D0001205AB /* MailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		EB280E931BCFA39C001205AB /* MailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		EB3D1C611BECC36500D3A34E /* InternetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetImage.h; sourceTree = "<group>"; };
+		EB3D1C621BECC36500D3A34E /* InternetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetImage.m; sourceTree = "<group>"; };
+		EB8DB40D1BC6E23C00CD2F28 /* velobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB4111BC6E23C00CD2F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB8DB4131BC6E23C00CD2F28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB8DB4141BC6E23C00CD2F28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB8DB4161BC6E23C00CD2F28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB8DB4171BC6E23C00CD2F28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB8DB41C1BC6E23C00CD2F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB8DB4211BC6E23C00CD2F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8DB4261BC6E23D00CD2F28 /* velobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB42A1BC6E23D00CD2F28 /* velobsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = velobsTests.m; sourceTree = "<group>"; };
+		EB8DB42C1BC6E23D00CD2F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8DB4311BC6E23D00CD2F28 /* velobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velobsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB4351BC6E23D00CD2F28 /* velobsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = velobsUITests.m; sourceTree = "<group>"; };
+		EB8DB4371BC6E23D00CD2F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB2CB6F1BEA8119008A0840 /* SousCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SousCategory.h; sourceTree = "<group>"; };
+		EBB2CB701BEA812C008A0840 /* SousCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SousCategory.m; sourceTree = "<group>"; };
+		EBB2CB721BEB4C74008A0840 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EBB3B2741BEBAF0900B0CE14 /* OldObs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldObs.h; sourceTree = "<group>"; };
+		EBB3B2751BEBAF1900B0CE14 /* OldObs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldObs.m; sourceTree = "<group>"; };
+		EBFF7CDF1BF3CEA000B7047F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8DB40A1BC6E23C00CD2F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFF7CE01BF3CEA000B7047F /* MapKit.framework in Frameworks */,
+				EBB2CB731BEB4C74008A0840 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB4231BC6E23C00CD2F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB42E1BC6E23D00CD2F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8DB4041BC6E23C00CD2F28 = {
+			isa = PBXGroup;
+			children = (
+				EBFF7CDF1BF3CEA000B7047F /* MapKit.framework */,
+				EBB2CB721BEB4C74008A0840 /* CoreLocation.framework */,
+				EB8DB40F1BC6E23C00CD2F28 /* velobs */,
+				EB8DB4291BC6E23D00CD2F28 /* velobsTests */,
+				EB8DB4341BC6E23D00CD2F28 /* velobsUITests */,
+				EB8DB40E1BC6E23C00CD2F28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8DB40E1BC6E23C00CD2F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB40D1BC6E23C00CD2F28 /* velobs.app */,
+				EB8DB4261BC6E23D00CD2F28 /* velobsTests.xctest */,
+				EB8DB4311BC6E23D00CD2F28 /* velobsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8DB40F1BC6E23C00CD2F28 /* velobs */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB4131BC6E23C00CD2F28 /* AppDelegate.h */,
+				EB8DB4141BC6E23C00CD2F28 /* AppDelegate.m */,
+				EB8DB4161BC6E23C00CD2F28 /* ViewController.h */,
+				EB8DB4171BC6E23C00CD2F28 /* ViewController.m */,
+				EB8DB41C1BC6E23C00CD2F28 /* Assets.xcassets */,
+				EB8DB4211BC6E23C00CD2F28 /* Info.plist */,
+				EB280E8B1BCE9D16001205AB /* bandeau@2x.png */,
+				EB280E8C1BCE9D16001205AB /* bandeauHD4.7@2x.png */,
+				EB280E8D1BCE9D16001205AB /* bandeauHD5.5@3x.png */,
+				EB8DB4101BC6E23C00CD2F28 /* Supporting Files */,
+				EB280E931BCFA39C001205AB /* MailViewController.h */,
+				EB280E911BCFA2D0001205AB /* MailViewController.m */,
+				EB0EB0571BD7EBB60023CCCA /* GeoLocViewController.h */,
+				EB0EB0581BD7EBD10023CCCA /* GeoLocViewController.m */,
+				EB0EB05A1BD7EBF40023CCCA /* MapViewController.h */,
+				EB0EB05B1BD7EC030023CCCA /* MapViewController.m */,
+				EB0EB05D1BD7EC150023CCCA /* ListProxViewController.h */,
+				EB0EB05E1BD7EC290023CCCA /* ListProxViewController.m */,
+				EB0EB0601BD7EC3E0023CCCA /* ReviewProxViewController.h */,
+				EB0EB0611BD7EC4F0023CCCA /* ReviewProxViewController.m */,
+				EB0EB0631BD7EC6C0023CCCA /* UpdateProxViewController.h */,
+				EB0EB0641BD7EC800023CCCA /* UpdateProxViewController.m */,
+				EB0EB0661BD7EC950023CCCA /* CategoryViewController.h */,
+				EB0EB0671BD7ECA50023CCCA /* CategoryViewController.m */,
+				EB0EB0691BD7ECE50023CCCA /* LocationPropertiesViewController.h */,
+				EB0EB06A1BD7ECF60023CCCA /* LocationPropertiesViewController.m */,
+				EB0EB06C1BD7ED0F0023CCCA /* DescriptionViewController.h */,
+				EB0EB06D1BD7ED3C0023CCCA /* DescriptionViewController.m */,
+				EB0EB06F1BD7ED700023CCCA /* PropositionViewController.h */,
+				EB0EB0701BD7EDE20023CCCA /* PropositionViewController.m */,
+				EB0EB0721BD7EDFC0023CCCA /* PictAndSendViewController.h */,
+				EB0EB0731BD7EE0E0023CCCA /* PictAndSendViewController.m */,
+				EB12CA011BE9461A0038CA6E /* VelObsSingleton.h */,
+				EB12CA021BE946400038CA6E /* VelObsSingleton.m */,
+				EBB2CB6F1BEA8119008A0840 /* SousCategory.h */,
+				EBB2CB701BEA812C008A0840 /* SousCategory.m */,
+				EBB3B2741BEBAF0900B0CE14 /* OldObs.h */,
+				EBB3B2751BEBAF1900B0CE14 /* OldObs.m */,
+				EB3D1C611BECC36500D3A34E /* InternetImage.h */,
+				EB3D1C621BECC36500D3A34E /* InternetImage.m */,
+				EB2198A41C19869400F8C49E /* Reachability.h */,
+				EB2198A51C1986BB00F8C49E /* Reachability.m */,
+			);
+			path = velobs;
+			sourceTree = "<group>";
+		};
+		EB8DB4101BC6E23C00CD2F28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB4111BC6E23C00CD2F28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8DB4291BC6E23D00CD2F28 /* velobsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB42A1BC6E23D00CD2F28 /* velobsTests.m */,
+				EB8DB42C1BC6E23D00CD2F28 /* Info.plist */,
+			);
+			path = velobsTests;
+			sourceTree = "<group>";
+		};
+		EB8DB4341BC6E23D00CD2F28 /* velobsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB4351BC6E23D00CD2F28 /* velobsUITests.m */,
+				EB8DB4371BC6E23D00CD2F28 /* Info.plist */,
+			);
+			path = velobsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8DB40C1BC6E23C00CD2F28 /* velobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB43A1BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobs" */;
+			buildPhases = (
+				EB8DB4091BC6E23C00CD2F28 /* Sources */,
+				EB8DB40A1BC6E23C00CD2F28 /* Frameworks */,
+				EB8DB40B1BC6E23C00CD2F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = velobs;
+			productName = velobs;
+			productReference = EB8DB40D1BC6E23C00CD2F28 /* velobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB8DB4251BC6E23C00CD2F28 /* velobsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB43D1BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobsTests" */;
+			buildPhases = (
+				EB8DB4221BC6E23C00CD2F28 /* Sources */,
+				EB8DB4231BC6E23C00CD2F28 /* Frameworks */,
+				EB8DB4241BC6E23C00CD2F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DB4281BC6E23D00CD2F28 /* PBXTargetDependency */,
+			);
+			name = velobsTests;
+			productName = velobsTests;
+			productReference = EB8DB4261BC6E23D00CD2F28 /* velobsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8DB4301BC6E23D00CD2F28 /* velobsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB4401BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobsUITests" */;
+			buildPhases = (
+				EB8DB42D1BC6E23D00CD2F28 /* Sources */,
+				EB8DB42E1BC6E23D00CD2F28 /* Frameworks */,
+				EB8DB42F1BC6E23D00CD2F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DB4331BC6E23D00CD2F28 /* PBXTargetDependency */,
+			);
+			name = velobsUITests;
+			productName = velobsUITests;
+			productReference = EB8DB4311BC6E23D00CD2F28 /* velobsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8DB4051BC6E23C00CD2F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Loic Goblet";
+				TargetAttributes = {
+					EB8DB40C1BC6E23C00CD2F28 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = LHJVWW2Z2X;
+					};
+					EB8DB4251BC6E23C00CD2F28 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EB8DB40C1BC6E23C00CD2F28;
+					};
+					EB8DB4301BC6E23D00CD2F28 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EB8DB40C1BC6E23C00CD2F28;
+					};
+				};
+			};
+			buildConfigurationList = EB8DB4081BC6E23C00CD2F28 /* Build configuration list for PBXProject "velobs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB8DB4041BC6E23C00CD2F28;
+			productRefGroup = EB8DB40E1BC6E23C00CD2F28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8DB40C1BC6E23C00CD2F28 /* velobs */,
+				EB8DB4251BC6E23C00CD2F28 /* velobsTests */,
+				EB8DB4301BC6E23D00CD2F28 /* velobsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8DB40B1BC6E23C00CD2F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB41D1BC6E23C00CD2F28 /* Assets.xcassets in Resources */,
+				EB280E901BCE9D16001205AB /* bandeauHD5.5@3x.png in Resources */,
+				EB280E8F1BCE9D16001205AB /* bandeauHD4.7@2x.png in Resources */,
+				EB280E8E1BCE9D16001205AB /* bandeau@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB4241BC6E23C00CD2F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB42F1BC6E23D00CD2F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8DB4091BC6E23C00CD2F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB4181BC6E23C00CD2F28 /* ViewController.m in Sources */,
+				EB0EB0711BD7EDE20023CCCA /* PropositionViewController.m in Sources */,
+				EB280E921BCFA2D0001205AB /* MailViewController.m in Sources */,
+				EBB2CB711BEA812D008A0840 /* SousCategory.m in Sources */,
+				EB8DB4151BC6E23C00CD2F28 /* AppDelegate.m in Sources */,
+				EB0EB05F1BD7EC290023CCCA /* ListProxViewController.m in Sources */,
+				EB0EB05C1BD7EC030023CCCA /* MapViewController.m in Sources */,
+				EB12CA031BE946400038CA6E /* VelObsSingleton.m in Sources */,
+				EB0EB06E1BD7ED3C0023CCCA /* DescriptionViewController.m in Sources */,
+				EB0EB06B1BD7ECF60023CCCA /* LocationPropertiesViewController.m in Sources */,
+				EB2198A61C1986BB00F8C49E /* Reachability.m in Sources */,
+				EB0EB0591BD7EBD10023CCCA /* GeoLocViewController.m in Sources */,
+				EB0EB0681BD7ECA50023CCCA /* CategoryViewController.m in Sources */,
+				EB3D1C631BECC36500D3A34E /* InternetImage.m in Sources */,
+				EBB3B2761BEBAF1900B0CE14 /* OldObs.m in Sources */,
+				EB8DB4121BC6E23C00CD2F28 /* main.m in Sources */,
+				EB0EB0651BD7EC800023CCCA /* UpdateProxViewController.m in Sources */,
+				EB0EB0741BD7EE0E0023CCCA /* PictAndSendViewController.m in Sources */,
+				EB0EB0621BD7EC4F0023CCCA /* ReviewProxViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB4221BC6E23C00CD2F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB42B1BC6E23D00CD2F28 /* velobsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB42D1BC6E23D00CD2F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB4361BC6E23D00CD2F28 /* velobsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8DB4281BC6E23D00CD2F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DB40C1BC6E23C00CD2F28 /* velobs */;
+			targetProxy = EB8DB4271BC6E23D00CD2F28 /* PBXContainerItemProxy */;
+		};
+		EB8DB4331BC6E23D00CD2F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DB40C1BC6E23C00CD2F28 /* velobs */;
+			targetProxy = EB8DB4321BC6E23D00CD2F28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB8DB4381BC6E23D00CD2F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB8DB4391BC6E23D00CD2F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB8DB43B1BC6E23D00CD2F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Loic Goblet (W25B94LFTW)";
+				INFOPLIST_FILE = velobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EB8DB43C1BC6E23D00CD2F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Loic Goblet (LHJVWW2Z2X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Loic Goblet (LHJVWW2Z2X)";
+				INFOPLIST_FILE = velobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EB8DB43E1BC6E23D00CD2F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = velobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velobs.app/velobs";
+			};
+			name = Debug;
+		};
+		EB8DB43F1BC6E23D00CD2F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = velobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velobs.app/velobs";
+			};
+			name = Release;
+		};
+		EB8DB4411BC6E23D00CD2F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = velobsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = velobs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB8DB4421BC6E23D00CD2F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = velobsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deuxpiedsdeuxroues.velobsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = velobs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8DB4081BC6E23C00CD2F28 /* Build configuration list for PBXProject "velobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB4381BC6E23D00CD2F28 /* Debug */,
+				EB8DB4391BC6E23D00CD2F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DB43A1BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB43B1BC6E23D00CD2F28 /* Debug */,
+				EB8DB43C1BC6E23D00CD2F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DB43D1BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB43E1BC6E23D00CD2F28 /* Debug */,
+				EB8DB43F1BC6E23D00CD2F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DB4401BC6E23D00CD2F28 /* Build configuration list for PBXNativeTarget "velobsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB4411BC6E23D00CD2F28 /* Debug */,
+				EB8DB4421BC6E23D00CD2F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8DB4051BC6E23C00CD2F28 /* Project object */;
+}
