@@ -483,11 +483,8 @@
                                        timeoutInterval:5.0];
         [theRequest setHTTPMethod:@"POST"];
         
-       NSString *post = [NSString stringWithFormat:@"id=%@&comment=%@",[[[VelObsSingleton sharedPref] poi] idd],champCommentaire.text ];
-        
-        NSLog(post);
-        
-        
+       NSString *post = [NSString stringWithFormat:@"id=%@&comment=%@&mail=%@",[[[VelObsSingleton sharedPref] poi] idd],champCommentaire.text,[[VelObsSingleton sharedPref] mail] ];
+      
         NSData *requestBodyData = [post dataUsingEncoding:NSUTF8StringEncoding];
         theRequest.HTTPBody = requestBodyData;
         
@@ -542,6 +539,7 @@
        
         [_params setObject:[NSString stringWithString:[[[VelObsSingleton sharedPref] poi] idd] ] forKey:@"id"];
         [_params setObject:champCommentaire.text forKey:@"comment"];
+        [_params setObject:[NSString stringWithString:[[VelObsSingleton sharedPref] mail]  ] forKey:@"mail"];
 
         NSString *BoundaryConstant = @"----------V2ymHFg03ehbqgZCaKO6jy";
 
